@@ -1,0 +1,7 @@
+autoformat\entity\User.class
+autoformat\Main.class
+autoformat\formatters\Formatter.class
+autoformat\formatters\CpfFormatter.class
+autoformat\annotation\Format.class
+autoformat\registry\FormatterRegistry.class
+autoformat\listeners\FormattingListenerEntity.class
