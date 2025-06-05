@@ -8,6 +8,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.FIELD)
 
 public @interface Format {
-    String type(); // example: "cpf", "phone"
-    String locale() default "";
+    String type(); // escolhe o tipo de formatação ex: "cpf", "phone", "currency"
+    String locale() default ""; // opcional, para formatar em um idioma específico, ex: "pt-BR"
 }
